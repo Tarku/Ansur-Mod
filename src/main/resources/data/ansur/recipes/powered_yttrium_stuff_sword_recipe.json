@@ -1,0 +1,24 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:powered_yttrium_ingot"
+    },
+    "1": {
+      "item": "ansur:powered_yttrium_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ansur:powered_yttrium_stuff_sword",
+    "count": 1
+  }
+}

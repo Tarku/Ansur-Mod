@@ -1,0 +1,12 @@
+{
+  "group": "ansur",
+  "type": "minecraft:smelting",
+  "experience": 2.4499999999999997,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ansur:yttrium_dust"
+  },
+  "result": {
+    "item": "ansur:yttrium_ingot"
+  }
+}

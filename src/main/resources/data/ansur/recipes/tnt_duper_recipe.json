@@ -1,0 +1,42 @@
+{
+  "group": "tnt_duper",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:powered_coal_block"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "ansur:powered_coal_block"
+    },
+    "3": {
+      "item": "minecraft:tnt"
+    },
+    "4": {
+      "item": "minecraft:dispenser"
+    },
+    "5": {
+      "item": "minecraft:tnt"
+    },
+    "6": {
+      "item": "ansur:powered_coal_block"
+    },
+    "7": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "8": {
+      "item": "ansur:powered_coal_block"
+    }
+  },
+  "result": {
+    "item": "ansur:tnt_duper",
+    "count": 1
+  }
+}

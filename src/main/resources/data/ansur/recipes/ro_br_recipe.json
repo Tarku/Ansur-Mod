@@ -1,0 +1,26 @@
+{
+  "group": "rockwool_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:rockwool"
+    },
+    "1": {
+      "item": "ansur:rockwool"
+    },
+    "2": {
+      "item": "ansur:rockwool"
+    },
+    "3": {
+      "item": "ansur:rockwool"
+    }
+  },
+  "result": {
+    "item": "ansur:rockwool_bricks",
+    "count": 4
+  }
+}

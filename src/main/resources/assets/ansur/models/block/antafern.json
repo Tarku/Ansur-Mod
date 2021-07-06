@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ansur:blocks/antafern2",
+    "particle": "ansur:blocks/antafern2"
+  }
+}

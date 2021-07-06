@@ -1,0 +1,13 @@
+{
+  "group": "powered_coal",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:powered_coal_block"
+    }
+  ],
+  "result": {
+    "item": "ansur:powered_coal",
+    "count": 9
+  }
+}

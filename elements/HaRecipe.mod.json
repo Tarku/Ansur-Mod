@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "modded_gun1",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GunBarrel"
+      },
+      {
+        "value": "CUSTOM:GunBarrel"
+      },
+      {
+        "value": "CUSTOM:YttriumPowerCell"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GunHandle"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Handgun"
+    },
+    "name": "ha_recipe",
+    "namespace": "mod"
+  }
+}

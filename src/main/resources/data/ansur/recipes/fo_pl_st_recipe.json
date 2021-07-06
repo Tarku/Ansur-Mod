@@ -1,0 +1,33 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "ansur:forwood_planks"
+    },
+    "4": {
+      "item": "ansur:forwood_planks"
+    },
+    "5": {
+      "item": "ansur:forwood_planks"
+    },
+    "6": {
+      "item": "ansur:forwood_planks"
+    },
+    "7": {
+      "item": "ansur:forwood_planks"
+    },
+    "8": {
+      "item": "ansur:forwood_planks"
+    }
+  },
+  "result": {
+    "item": "ansur:forwood_planks_stairs",
+    "count": 4
+  }
+}

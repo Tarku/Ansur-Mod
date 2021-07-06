@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ansur:blocks/yo2",
+    "particle": "ansur:blocks/yo2"
+  }
+}

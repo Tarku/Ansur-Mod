@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/forrock",
+    "up": "ansur:blocks/forrock",
+    "north": "ansur:blocks/forrock",
+    "east": "ansur:blocks/forrock",
+    "south": "ansur:blocks/forrock",
+    "west": "ansur:blocks/forrock",
+    "particle": "ansur:blocks/forrock"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "rusty_plating",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:iron_plate"
+    },
+    "1": {
+      "item": "ansur:iron_plate"
+    },
+    "2": {
+      "item": "ansur:iron_plate"
+    },
+    "3": {
+      "item": "ansur:iron_plate"
+    },
+    "4": {
+      "item": "minecraft:orange_dye"
+    },
+    "5": {
+      "item": "ansur:iron_plate"
+    },
+    "6": {
+      "item": "ansur:iron_plate"
+    },
+    "7": {
+      "item": "ansur:iron_plate"
+    },
+    "8": {
+      "item": "ansur:iron_plate"
+    }
+  },
+  "result": {
+    "item": "ansur:rusty_plating",
+    "count": 2
+  }
+}

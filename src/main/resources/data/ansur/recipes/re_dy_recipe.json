@@ -1,0 +1,13 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:pyrantha"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_dye",
+    "count": 1
+  }
+}

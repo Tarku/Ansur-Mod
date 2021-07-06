@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ansur:neutralin"
+    },
+    "title": {
+      "translate": "advancements.neutarand_enter.title"
+    },
+    "description": {
+      "translate": "advancements.neutarand_enter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "neutarand_enter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "ansur:neutarand"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "ansur:aiden_enter"
+}

@@ -1,0 +1,10 @@
+{
+  "_fv": 18,
+  "_type": "fuel",
+  "definition": {
+    "power": 11000,
+    "block": {
+      "value": "CUSTOM:PoweredCoal"
+    }
+  }
+}

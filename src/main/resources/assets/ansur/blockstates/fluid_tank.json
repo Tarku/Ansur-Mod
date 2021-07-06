@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ansur:block/fluid_tank"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "ansur:forrock_bricks"
+    },
+    "4": {
+      "item": "ansur:forrock_bricks"
+    },
+    "5": {
+      "item": "ansur:forrock_bricks"
+    },
+    "6": {
+      "item": "ansur:forrock_bricks"
+    },
+    "7": {
+      "item": "ansur:forrock_bricks"
+    },
+    "8": {
+      "item": "ansur:forrock_bricks"
+    }
+  },
+  "result": {
+    "item": "ansur:forrock_bricks_stairs",
+    "count": 4
+  }
+}

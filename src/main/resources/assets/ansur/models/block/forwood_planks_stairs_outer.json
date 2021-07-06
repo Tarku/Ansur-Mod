@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "ansur:blocks/forwoodplanks",
+    "top": "ansur:blocks/forwoodplanks",
+    "side": "ansur:blocks/forwoodplanks"
+  }
+}

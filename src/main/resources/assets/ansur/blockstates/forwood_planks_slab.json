@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ansur:block/forwood_planks_slab"
+    },
+    "type=top": {
+      "model": "ansur:block/forwood_planks_slab_top"
+    },
+    "type=double": {
+      "model": "ansur:block/forwood_planks_slab_full"
+    }
+  }
+}

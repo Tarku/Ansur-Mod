@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "ansur:blocks/danerock_bricks",
+    "top": "ansur:blocks/danerock_bricks",
+    "side": "ansur:blocks/danerock_bricks"
+  }
+}

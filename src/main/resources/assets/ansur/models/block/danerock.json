@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/danerock",
+    "up": "ansur:blocks/danerock",
+    "north": "ansur:blocks/danerock",
+    "east": "ansur:blocks/danerock",
+    "south": "ansur:blocks/danerock",
+    "west": "ansur:blocks/danerock",
+    "particle": "ansur:blocks/danerock"
+  }
+}

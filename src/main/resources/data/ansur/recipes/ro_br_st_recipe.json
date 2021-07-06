@@ -1,0 +1,33 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "ansur:rockwool_bricks"
+    },
+    "4": {
+      "item": "ansur:rockwool_bricks"
+    },
+    "5": {
+      "item": "ansur:rockwool_bricks"
+    },
+    "6": {
+      "item": "ansur:rockwool_bricks"
+    },
+    "7": {
+      "item": "ansur:rockwool_bricks"
+    },
+    "8": {
+      "item": "ansur:rockwool_bricks"
+    }
+  },
+  "result": {
+    "item": "ansur:rockwool_bricks_stairs",
+    "count": 4
+  }
+}

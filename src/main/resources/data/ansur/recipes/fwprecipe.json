@@ -1,0 +1,13 @@
+{
+  "group": "modded_planks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:forwood_log"
+    }
+  ],
+  "result": {
+    "item": "ansur:forwood_planks",
+    "count": 4
+  }
+}

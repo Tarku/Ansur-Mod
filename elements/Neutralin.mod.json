@@ -1,0 +1,27 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "Neutralin",
+    "textureStill": "adadadada",
+    "textureFlowing": "aidjaiudhiau",
+    "luminosity": 0,
+    "density": 1200,
+    "viscosity": 500,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 2,
+    "spawnWorldTypes": [
+      "CUSTOM:AidenDimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Neutarand"
+      }
+    ]
+  }
+}

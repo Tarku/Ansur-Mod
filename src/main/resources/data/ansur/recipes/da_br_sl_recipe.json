@@ -1,0 +1,22 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:danerock_bricks"
+    },
+    "1": {
+      "item": "ansur:danerock_bricks"
+    },
+    "2": {
+      "item": "ansur:danerock_bricks"
+    }
+  },
+  "result": {
+    "item": "ansur:danerock_bricks_slab",
+    "count": 6
+  }
+}

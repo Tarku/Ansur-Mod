@@ -1,0 +1,26 @@
+{
+  "group": "forrock_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:forrock"
+    },
+    "1": {
+      "item": "ansur:forrock"
+    },
+    "2": {
+      "item": "ansur:forrock"
+    },
+    "3": {
+      "item": "ansur:forrock"
+    }
+  },
+  "result": {
+    "item": "ansur:forrock_bricks",
+    "count": 4
+  }
+}

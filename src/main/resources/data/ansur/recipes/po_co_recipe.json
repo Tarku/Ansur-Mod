@@ -1,0 +1,42 @@
+{
+  "group": "powered_coal",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:coals"
+    },
+    "1": {
+      "item": "ansur:powered_yttrium"
+    },
+    "2": {
+      "tag": "minecraft:coals"
+    },
+    "3": {
+      "item": "ansur:powered_yttrium"
+    },
+    "4": {
+      "tag": "minecraft:coals"
+    },
+    "5": {
+      "item": "ansur:powered_yttrium"
+    },
+    "6": {
+      "tag": "minecraft:coals"
+    },
+    "7": {
+      "item": "ansur:powered_yttrium"
+    },
+    "8": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "ansur:powered_coal",
+    "count": 5
+  }
+}

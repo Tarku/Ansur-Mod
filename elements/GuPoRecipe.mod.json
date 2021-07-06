@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "gunpowder",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Sulfur"
+      },
+      {
+        "value": "CUSTOM:Saltpeter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.GUNPOWDER"
+    },
+    "name": "gu_po_recipe",
+    "namespace": "mod"
+  }
+}

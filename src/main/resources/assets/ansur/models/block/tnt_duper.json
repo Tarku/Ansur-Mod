@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/tnt_duper_top_bottom",
+    "up": "ansur:blocks/tnt_duper_top_bottom",
+    "north": "ansur:blocks/tnt_duper_sides",
+    "east": "ansur:blocks/tnt_duper_sides",
+    "south": "ansur:blocks/tnt_duper_sides",
+    "west": "ansur:blocks/tnt_duper_sides",
+    "particle": "ansur:blocks/tnt_duper_top_bottom"
+  }
+}

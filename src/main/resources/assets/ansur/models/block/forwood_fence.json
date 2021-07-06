@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "ansur:blocks/forwoodplanks",
+    "particle": "ansur:blocks/forwoodplanks"
+  }
+}

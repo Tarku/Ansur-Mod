@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "yttrium_power_cell",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YttriumIngot"
+      },
+      {
+        "value": "CUSTOM:PoweredYttriumIngot"
+      },
+      {
+        "value": "CUSTOM:YttriumIngot"
+      },
+      {
+        "value": "CUSTOM:PoweredYttriumIngot"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:PoweredYttriumIngot"
+      },
+      {
+        "value": "CUSTOM:YttriumIngot"
+      },
+      {
+        "value": "CUSTOM:PoweredYttriumIngot"
+      },
+      {
+        "value": "CUSTOM:YttriumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YttriumPowerCell"
+    },
+    "name": "yt_po_ce_recipe",
+    "namespace": "mod"
+  }
+}

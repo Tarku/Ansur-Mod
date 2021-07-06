@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Saltpeter"
+      },
+      {
+        "value": "CUSTOM:Saltpeter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Sulfur"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.REDSTONE"
+    },
+    "name": "re_du_recipe",
+    "namespace": "mod"
+  }
+}

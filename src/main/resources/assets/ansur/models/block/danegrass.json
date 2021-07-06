@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ansur:blocks/danegrass",
+    "particle": "ansur:blocks/danegrass"
+  }
+}

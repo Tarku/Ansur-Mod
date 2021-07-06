@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "spider_sword",
+    "customModelName": "Normal",
+    "name": "Arachnogenesis",
+    "specialInfo": [
+      "Right-click to spawn friendly spiders,",
+      "who will attack your enemies in exchange of XP!"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.5,
+    "enchantability": 2,
+    "damageVsEntity": 5.5,
+    "usageCount": 350,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Chitin"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SpiderSwordRightClickedInAir"
+    }
+  }
+}

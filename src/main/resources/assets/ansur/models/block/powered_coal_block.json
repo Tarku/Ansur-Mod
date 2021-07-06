@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/powered_coal_block",
+    "up": "ansur:blocks/powered_coal_block",
+    "north": "ansur:blocks/powered_coal_block",
+    "east": "ansur:blocks/powered_coal_block",
+    "south": "ansur:blocks/powered_coal_block",
+    "west": "ansur:blocks/powered_coal_block",
+    "particle": "ansur:blocks/powered_coal_block"
+  }
+}

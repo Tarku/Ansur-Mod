@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ansur:blocks/rw_leaves",
+    "particle": "ansur:blocks/rw_leaves"
+  }
+}

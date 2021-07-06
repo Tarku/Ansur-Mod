@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/rockwood_planks",
+    "up": "ansur:blocks/rockwood_planks",
+    "north": "ansur:blocks/rockwood_planks",
+    "east": "ansur:blocks/rockwood_planks",
+    "south": "ansur:blocks/rockwood_planks",
+    "west": "ansur:blocks/rockwood_planks",
+    "particle": "ansur:blocks/rockwood_planks"
+  }
+}

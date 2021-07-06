@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ansur:aiden_stone"
+    },
+    "title": {
+      "translate": "advancements.aiden_enter.title"
+    },
+    "description": {
+      "translate": "advancements.aiden_enter.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aiden_enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ansur:aiden_dimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "minecraft:story/enter_the_nether"
+}

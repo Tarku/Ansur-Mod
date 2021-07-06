@@ -1,0 +1,13 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:yttrium_ore_block"
+    }
+  ],
+  "result": {
+    "item": "ansur:yttrium_dust",
+    "count": 9
+  }
+}

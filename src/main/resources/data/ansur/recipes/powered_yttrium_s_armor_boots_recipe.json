@@ -1,0 +1,26 @@
+{
+  "group": "modded_armor_boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:powered_yttrium_ingot"
+    },
+    "2": {
+      "item": "ansur:powered_yttrium_ingot"
+    },
+    "3": {
+      "item": "ansur:powered_yttrium_ingot"
+    },
+    "5": {
+      "item": "ansur:powered_yttrium_ingot"
+    }
+  },
+  "result": {
+    "item": "ansur:powered_yttrium_s_armor_boots",
+    "count": 1
+  }
+}

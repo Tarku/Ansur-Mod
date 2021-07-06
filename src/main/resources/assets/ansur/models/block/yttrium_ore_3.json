@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/yo3",
+    "up": "ansur:blocks/yo3",
+    "north": "ansur:blocks/yo3",
+    "east": "ansur:blocks/yo3",
+    "south": "ansur:blocks/yo3",
+    "west": "ansur:blocks/yo3",
+    "particle": "ansur:blocks/yo3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "ansur:blocks/rockwool_bricks",
+    "top": "ansur:blocks/rockwool_bricks",
+    "side": "ansur:blocks/rockwool_bricks"
+  }
+}

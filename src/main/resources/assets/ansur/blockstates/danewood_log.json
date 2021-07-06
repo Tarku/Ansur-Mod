@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "ansur:block/danewood_log"
+    },
+    "facing=north": {
+      "model": "ansur:block/danewood_log"
+    },
+    "facing=east": {
+      "model": "ansur:block/danewood_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "ansur:block/danewood_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "ansur:block/danewood_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "ansur:block/danewood_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

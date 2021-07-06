@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 2.4499999999999997,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:YttriumDust"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:YttriumIngot"
+    },
+    "name": "yttrium_ore_smelting",
+    "namespace": "mod"
+  }
+}

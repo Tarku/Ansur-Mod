@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "modded_metal_block",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      },
+      {
+        "value": "CUSTOM:PoweredCoal"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PoweredCoalBlock"
+    },
+    "name": "po_co_bl_recipe",
+    "namespace": "mod"
+  }
+}

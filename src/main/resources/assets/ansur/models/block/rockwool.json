@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/rockwool",
+    "up": "ansur:blocks/rockwool",
+    "north": "ansur:blocks/rockwool",
+    "east": "ansur:blocks/rockwool",
+    "south": "ansur:blocks/rockwool",
+    "west": "ansur:blocks/rockwool",
+    "particle": "ansur:blocks/rockwool"
+  }
+}

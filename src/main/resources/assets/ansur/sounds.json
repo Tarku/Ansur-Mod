@@ -1,0 +1,20 @@
+{
+  "rockwoodrogue1": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ansur:1",
+        "stream": false
+      }
+    ]
+  },
+  "rockwoodrogue2": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ansur:2",
+        "stream": false
+      }
+    ]
+  }
+}

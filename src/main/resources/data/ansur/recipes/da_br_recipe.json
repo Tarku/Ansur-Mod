@@ -1,0 +1,26 @@
+{
+  "group": "danerock_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:danerock"
+    },
+    "1": {
+      "item": "ansur:danerock"
+    },
+    "2": {
+      "item": "ansur:danerock"
+    },
+    "3": {
+      "item": "ansur:danerock"
+    }
+  },
+  "result": {
+    "item": "ansur:danerock_bricks",
+    "count": 4
+  }
+}

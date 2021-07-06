@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ansur:powered_yttrium_ingot"
+    },
+    "title": {
+      "translate": "advancements.powered_yttrium_get.title"
+    },
+    "description": {
+      "translate": "advancements.powered_yttrium_get.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "powered_yttrium_get": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ansur:powered_yttrium",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "ansur:aiden_enter"
+}

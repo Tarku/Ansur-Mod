@@ -1,0 +1,118 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Rockbiome",
+    "groundBlock": {
+      "value": "CUSTOM:Rockwool"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Rockwool"
+    },
+    "airColor": {
+      "value": -10053121,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10053121,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -10053121,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -10053121,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10053121,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.0,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "CUSTOM:Neutarand"
+    },
+    "rainingPossibility": 0.30000000000000004,
+    "temperature": 0.8,
+    "baseHeight": 0.30000000000000004,
+    "heightVariation": 2.0,
+    "biomeType": "WARM",
+    "spawnBiome": false,
+    "biomeWeight": 15,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Mega pine trees",
+    "treeType": 1,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "CUSTOM:RockwoodLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:RockwoodLeaves"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Ores",
+      "Lakes",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:RockwoodRogue"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 8,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DanerockBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DanerockBricks"
+      },
+      {
+        "value": "CUSTOM:DanerockBricks"
+      },
+      {
+        "value": "CUSTOM:DanerockBricks"
+      },
+      {
+        "value": "CUSTOM:DanerockBricks"
+      },
+      {
+        "value": "CUSTOM:DanerockBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DanerockBricksStairs"
+    },
+    "name": "da_br_st_recipe",
+    "namespace": "mod"
+  }
+}

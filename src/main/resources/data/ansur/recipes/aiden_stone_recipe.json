@@ -1,0 +1,16 @@
+{
+  "group": "aiden_stone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "ansur:aiden_gem"
+    }
+  ],
+  "result": {
+    "item": "ansur:aiden_stone",
+    "count": 1
+  }
+}

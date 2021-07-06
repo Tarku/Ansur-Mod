@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/aidenstone",
+    "up": "ansur:blocks/aidenstone",
+    "north": "ansur:blocks/aidenstone",
+    "east": "ansur:blocks/aidenstone",
+    "south": "ansur:blocks/aidenstone",
+    "west": "ansur:blocks/aidenstone",
+    "particle": "ansur:blocks/aidenstone"
+  }
+}

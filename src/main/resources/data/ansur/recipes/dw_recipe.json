@@ -1,0 +1,13 @@
+{
+  "group": "modded_planks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:danewood_log"
+    }
+  ],
+  "result": {
+    "item": "ansur:danewood_planks",
+    "count": 4
+  }
+}

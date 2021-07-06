@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/fluid_tank",
+    "up": "ansur:blocks/fluid_tank",
+    "north": "ansur:blocks/fluid_tank",
+    "east": "ansur:blocks/fluid_tank",
+    "south": "ansur:blocks/fluid_tank",
+    "west": "ansur:blocks/fluid_tank",
+    "particle": "ansur:blocks/fluid_tank"
+  }
+}

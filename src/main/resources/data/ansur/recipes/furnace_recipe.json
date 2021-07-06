@@ -1,0 +1,39 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "stone"
+    },
+    "1": {
+      "tag": "stone"
+    },
+    "2": {
+      "tag": "stone"
+    },
+    "3": {
+      "tag": "stone"
+    },
+    "5": {
+      "tag": "stone"
+    },
+    "6": {
+      "tag": "stone"
+    },
+    "7": {
+      "tag": "stone"
+    },
+    "8": {
+      "tag": "stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:norstone"
+    },
+    "1": {
+      "item": "ansur:norstone"
+    },
+    "2": {
+      "item": "ansur:norstone"
+    },
+    "3": {
+      "item": "ansur:norstone"
+    },
+    "5": {
+      "item": "ansur:norstone"
+    },
+    "6": {
+      "item": "ansur:norstone"
+    },
+    "7": {
+      "item": "ansur:norstone"
+    },
+    "8": {
+      "item": "ansur:norstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

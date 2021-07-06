@@ -1,0 +1,22 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:yttrium_ingot"
+    },
+    {
+      "item": "ansur:yttrium_ingot"
+    },
+    {
+      "item": "ansur:yttrium_ingot"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "ansur:bullet",
+    "count": 16
+  }
+}

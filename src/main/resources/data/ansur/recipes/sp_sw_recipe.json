@@ -1,0 +1,24 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:chitin"
+    },
+    "1": {
+      "item": "ansur:chitin"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ansur:spider_sword",
+    "count": 1
+  }
+}

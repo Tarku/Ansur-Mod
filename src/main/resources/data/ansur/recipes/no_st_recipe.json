@@ -1,0 +1,19 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:forrock"
+    },
+    {
+      "item": "ansur:danerock"
+    },
+    {
+      "item": "ansur:rockwool"
+    }
+  ],
+  "result": {
+    "item": "ansur:norstone",
+    "count": 3
+  }
+}

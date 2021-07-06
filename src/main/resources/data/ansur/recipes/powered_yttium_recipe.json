@@ -1,0 +1,42 @@
+{
+  "group": "powered_yttrium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:yttrium_dust"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "ansur:yttrium_dust"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "ansur:yttrium_dust"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "ansur:yttrium_dust"
+    }
+  },
+  "result": {
+    "item": "ansur:powered_yttrium",
+    "count": 4
+  }
+}

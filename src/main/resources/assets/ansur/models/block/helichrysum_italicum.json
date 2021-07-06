@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ansur:blocks/helichrysumm_italicum",
+    "particle": "ansur:blocks/helichrysumm_italicum"
+  }
+}

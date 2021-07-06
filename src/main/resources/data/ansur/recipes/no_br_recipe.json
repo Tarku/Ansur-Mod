@@ -1,0 +1,26 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:norstone"
+    },
+    "1": {
+      "item": "ansur:norstone"
+    },
+    "2": {
+      "item": "ansur:norstone"
+    },
+    "3": {
+      "item": "ansur:norstone"
+    }
+  },
+  "result": {
+    "item": "ansur:norstone_bricks",
+    "count": 4
+  }
+}

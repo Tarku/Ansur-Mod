@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GunBarrel"
+    },
+    "name": "gu_ba_recipe",
+    "namespace": "mod"
+  }
+}

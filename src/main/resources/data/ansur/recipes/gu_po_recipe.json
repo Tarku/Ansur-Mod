@@ -1,0 +1,22 @@
+{
+  "group": "gunpowder",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:sulfur"
+    },
+    {
+      "item": "ansur:saltpeter"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "ansur:yttrium_dust"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 4
+  }
+}

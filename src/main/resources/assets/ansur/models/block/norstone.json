@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/norstone2",
+    "up": "ansur:blocks/norstone2",
+    "north": "ansur:blocks/norstone2",
+    "east": "ansur:blocks/norstone2",
+    "south": "ansur:blocks/norstone2",
+    "west": "ansur:blocks/norstone2",
+    "particle": "ansur:blocks/norstone2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:saltpeter"
+    },
+    {
+      "item": "ansur:saltpeter"
+    },
+    {
+      "item": "ansur:sulfur"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 4
+  }
+}

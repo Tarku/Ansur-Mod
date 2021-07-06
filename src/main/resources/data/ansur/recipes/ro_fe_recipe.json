@@ -1,0 +1,32 @@
+{
+  "group": "ansur",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:rockwood_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "ansur:rockwood_planks"
+    },
+    "3": {
+      "item": "ansur:rockwood_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "ansur:rockwood_planks"
+    }
+  },
+  "result": {
+    "item": "ansur:rockwood_fence",
+    "count": 3
+  }
+}

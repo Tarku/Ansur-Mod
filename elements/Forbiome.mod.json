@@ -1,0 +1,123 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Forbiome",
+    "groundBlock": {
+      "value": "CUSTOM:Forrock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Forrock"
+    },
+    "airColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.0,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "CUSTOM:Neutarand"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 1.5,
+    "baseHeight": 3.2,
+    "heightVariation": 0.7999999999999999,
+    "biomeType": "DESERT",
+    "spawnBiome": false,
+    "biomeWeight": 15,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 7,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 9,
+    "maxWaterDepth": 1,
+    "treeStem": {
+      "value": "CUSTOM:Forwood"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:ForwoodLeaves"
+    },
+    "treeVines": {
+      "value": "CUSTOM:ForwoodLeaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.STAINED_GLASS_PANE#5"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:ForwoodSpider"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:ForrockSpider"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 6,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

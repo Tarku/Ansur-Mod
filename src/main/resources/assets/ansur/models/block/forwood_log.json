@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ansur:blocks/ftwood2",
+    "up": "ansur:blocks/ftwood2",
+    "north": "ansur:blocks/fwood2",
+    "east": "ansur:blocks/fwood2",
+    "south": "ansur:blocks/fwood2",
+    "west": "ansur:blocks/fwood2",
+    "particle": "ansur:blocks/ftwood2"
+  }
+}
