@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "rogue_boots",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MushroomArmor.boots"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": "CUSTOM:RogueSoul"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      },
+      {
+        "value": "CUSTOM:YttriumDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RogueArmor.boots"
+    },
+    "name": "ro_ar_bo_recipe",
+    "namespace": "mod"
+  }
+}

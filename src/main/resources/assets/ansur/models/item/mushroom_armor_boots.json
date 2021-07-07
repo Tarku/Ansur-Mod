@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ansur:items/mushroom_cloth_armor_boots"
+  }
+}

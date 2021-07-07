@@ -1,0 +1,36 @@
+{
+  "group": "rogue_boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "ansur:mushroom_armor_boots"
+    },
+    "3": {
+      "item": "ansur:yttrium_dust"
+    },
+    "4": {
+      "item": "ansur:rogue_soul"
+    },
+    "5": {
+      "item": "ansur:yttrium_dust"
+    },
+    "6": {
+      "item": "ansur:yttrium_dust"
+    },
+    "7": {
+      "item": "ansur:yttrium_dust"
+    },
+    "8": {
+      "item": "ansur:yttrium_dust"
+    }
+  },
+  "result": {
+    "item": "ansur:rogue_armor_boots",
+    "count": 1
+  }
+}

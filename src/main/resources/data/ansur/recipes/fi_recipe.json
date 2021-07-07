@@ -1,0 +1,30 @@
+{
+  "group": "fiber",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "2": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "4": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "6": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "8": {
+      "item": "ansur:fibrous_mushroom"
+    }
+  },
+  "result": {
+    "item": "ansur:fungus_fiber",
+    "count": 2
+  }
+}

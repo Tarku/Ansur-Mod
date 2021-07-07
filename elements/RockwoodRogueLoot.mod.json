@@ -14,25 +14,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:PoweredYttrium"
-            },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:YttriumDust"
             },
             "weight": 50,
             "minCount": 1,
-            "maxCount": 1,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -42,9 +28,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:YttriumFluidCore"
+              "value": "CUSTOM:RogueSoul"
             },
-            "weight": 1,
+            "weight": 4,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

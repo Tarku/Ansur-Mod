@@ -1,0 +1,36 @@
+{
+  "group": "mushroom_leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:fungus_fiber"
+    },
+    "1": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "2": {
+      "item": "ansur:fungus_fiber"
+    },
+    "3": {
+      "item": "ansur:fungus_fiber"
+    },
+    "5": {
+      "item": "ansur:fungus_fiber"
+    },
+    "6": {
+      "item": "ansur:fungus_fiber"
+    },
+    "8": {
+      "item": "ansur:fungus_fiber"
+    }
+  },
+  "result": {
+    "item": "ansur:mushroom_armor_leggings",
+    "count": 1
+  }
+}

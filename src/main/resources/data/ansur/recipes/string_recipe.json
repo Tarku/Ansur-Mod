@@ -1,0 +1,26 @@
+{
+  "group": "string",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:fungus_fiber"
+    },
+    "1": {
+      "item": "ansur:saltpeter"
+    },
+    "2": {
+      "item": "ansur:saltpeter"
+    },
+    "3": {
+      "item": "ansur:fungus_fiber"
+    }
+  },
+  "result": {
+    "item": "minecraft:string",
+    "count": 2
+  }
+}

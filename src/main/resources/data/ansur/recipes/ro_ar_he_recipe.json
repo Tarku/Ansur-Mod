@@ -1,0 +1,31 @@
+{
+  "group": "rogue_helmet",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:mushroom_armor_helmet"
+    },
+    {
+      "item": "ansur:yttrium_dust"
+    },
+    {
+      "item": "ansur:rogue_soul"
+    },
+    {
+      "item": "ansur:yttrium_dust"
+    },
+    {
+      "item": "ansur:yttrium_dust"
+    },
+    {
+      "item": "ansur:yttrium_dust"
+    },
+    {
+      "item": "ansur:yttrium_dust"
+    }
+  ],
+  "result": {
+    "item": "ansur:rogue_armor_helmet",
+    "count": 1
+  }
+}

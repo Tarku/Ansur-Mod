@@ -1,0 +1,26 @@
+{
+  "group": "mushroom_boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "2": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "3": {
+      "item": "ansur:fungus_fiber"
+    },
+    "5": {
+      "item": "ansur:fungus_fiber"
+    }
+  },
+  "result": {
+    "item": "ansur:mushroom_armor_boots",
+    "count": 1
+  }
+}

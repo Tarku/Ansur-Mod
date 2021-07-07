@@ -43,12 +43,12 @@ public class RogueArmorItem extends AnsurModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 40;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 4, 7, 4}[slot.getIndex()];
+				return new int[]{2, 4, 5, 4}[slot.getIndex()];
 			}
 
 			@Override
@@ -74,7 +74,7 @@ public class RogueArmorItem extends AnsurModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 1.1f;
+				return 0.7999999999999999f;
 			}
 
 			@Override

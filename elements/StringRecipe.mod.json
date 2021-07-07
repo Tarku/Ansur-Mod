@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "string",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Fiber"
+      },
+      {
+        "value": "CUSTOM:Saltpeter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Saltpeter"
+      },
+      {
+        "value": "CUSTOM:Fiber"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.STRING"
+    },
+    "name": "string_recipe",
+    "namespace": "mod"
+  }
+}

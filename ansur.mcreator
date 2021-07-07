@@ -2234,9 +2234,216 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "roggrass"
+    },
+    {
+      "name": "RogueSoul",
+      "type": "item",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rogue_soul"
+    },
+    {
+      "name": "FibrousMushroom",
+      "type": "plant",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fibrous_mushroom"
+    },
+    {
+      "name": "Fiber",
+      "type": "item",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fungus_fiber"
+    },
+    {
+      "name": "FiRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fi_recipe"
+    },
+    {
+      "name": "HastePotionPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haste_potion_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HastePotion",
+      "type": "potion",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haste_potion"
+    },
+    {
+      "name": "MushroomArmor",
+      "type": "armor",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroom_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MuArHeRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mu_ar_he_recipe"
+    },
+    {
+      "name": "BigMushroomSpawnOnKeyPressed",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_mushroom_spawn_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigMushroomSpawn",
+      "type": "keybind",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_mushroom_spawn"
+    },
+    {
+      "name": "MuArChRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mu_ar_ch_recipe"
+    },
+    {
+      "name": "MuArLeRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mu_ar_le_recipe"
+    },
+    {
+      "name": "MuArBoRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mu_ar_bo_recipe"
+    },
+    {
+      "name": "RoArHeRecipe",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ro_ar_he_recipe"
+    },
+    {
+      "name": "RoArChmRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ro_ar_chm_recipe"
+    },
+    {
+      "name": "RoArLeRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ro_ar_le_recipe"
+    },
+    {
+      "name": "RoArBoRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ro_ar_bo_recipe"
+    },
+    {
+      "name": "StringRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "string_recipe"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "has_mushroom_armor",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
   "sound_elements": [
     {
       "name": "rockwoodrogue1",
@@ -2256,30 +2463,32 @@
   "language_map": {
     "en_us": {
       "item.ansur.rogue_armorbody": "Rogue Mail Plate",
+      "item.minecraft.lingering_potion.effect.haste_potion": "Lingering Haste Potion",
       "item.ansur.spider_sword": "Arachnogenesis",
       "item.ansur.rogue_armor_helmet": "Rogue Helm",
       "block.ansur.powered_coal_block": "Block of Powered Coal",
       "item.ansur.powered_coal": "Powered Coal",
-      "block.ansur.rockwood_log": "Rockwood Log",
+      "effect.haste_potion": "Haste Potion",
       "item.ansur.aiden_apple": "Aiden Apple",
-      "block.ansur.danerock_bricks_stairs": "Danerock Bricks Stairs",
+      "block.ansur.rockwood_log": "Rockwood Log",
       "block.ansur.danewood_planks": "Danewood Planks",
+      "block.ansur.danerock_bricks_stairs": "Danerock Bricks Stairs",
       "item.ansur.dane_zombie": "Dane Zombie Spawn Egg",
       "item.ansur.wagyu_meat": "Meat Jerky",
       "item.ansur.rogue_armor_chestplate": "Rogue Mail Plate",
       "biome.ansur.neutarand": "Neutarand",
       "block.ansur.aiden_stone": "Aiden Stone",
       "block.ansur.danewood_fence": "Danewood Fence",
-      "block.ansur.powered_coal_ore": "Powered Coal Ore",
       "block.ansur.danerock_bricks_slab": "Danerock Bricks Slab",
+      "block.ansur.powered_coal_ore": "Powered Coal Ore",
       "item.ansur.chitin": "Chitin",
       "biome.ansur.rockbiome": "Rockbiome",
       "block.ansur.forrock": "Forrock",
       "item.ansur.powered_yttrium": "Powered Yttrium",
       "block.ansur.yttrium_ore_block": "Block of Yttrium",
-      "item.ansur.powered_yttrium_s_armorbody": "Powered Yttrium Chestplate",
-      "item.ansur.forwood_spider": "Forwood Spider Spawn Egg",
       "advancements.aiden_enter.title": "Aiden Discovery",
+      "item.ansur.forwood_spider": "Forwood Spider Spawn Egg",
+      "item.ansur.powered_yttrium_s_armorbody": "Powered Yttrium Chestplate",
       "fluid.neutralin": "Neutralin",
       "biome.ansur.danebiome": "Danebiome",
       "block.ansur.antafern": "Antafern",
@@ -2299,8 +2508,11 @@
       "item.ansur.powered_yttrium_s_armor_chestplate": "Powered Yttrium Chestplate",
       "block.ansur.rockwool_bricks_stairs": "Rockwool Bricks Stairs",
       "block.ansur.helichrysum_italicum": "Helichrysum Italicum",
+      "item.minecraft.potion.effect.haste_potion": "Haste Potion",
       "item.ansur.yttrium_fluid_core": "Yttrium Fluid Core",
+      "item.ansur.fungus_fiber": "Fungus Fiber",
       "block.ansur.fluid_tank": "Fluid Tank",
+      "item.ansur.rogue_soul": "Rogue Soul",
       "enchantment.ansur.withering": "Withering",
       "item.ansur.dane_armorlegs": "Dane Leggings",
       "block.ansur.rockwood_planks_slab": "Rockwood Planks Slab",
@@ -2311,12 +2523,15 @@
       "block.ansur.rockwool_bricks": "Rockwool Bricks",
       "item.ansur.powered_yttrium_s_armor_leggings": "Powered Yttrium Leggings",
       "item.ansur.rockwood_rogue": "Rockwood Rogue Spawn Egg",
+      "block.ansur.fibrous_mushroom": "Fibrous Mushroom",
       "block.ansur.forwood_planks": "Forwood Planks",
       "item.ansur.yttrium_power_cell": "Yttrium Power Cell",
       "item.ansur.powered_yttrium_ingot": "Powered Yttrium Ingot",
       "item.ansur.powered_yttrium_s_armorhelmet": "Powered Yttrium Helmet",
       "block.ansur.danerock_bricks": "Danerock Bricks",
+      "item.minecraft.splash_potion.effect.haste_potion": "Splash Haste Potion",
       "item.ansur.gun_handle": "Gun Handle",
+      "item.ansur.mushroom_armor_helmet": "Mushroom Cap",
       "item.ansur.powered_yttrium_stuff_hoe": "Powered Yttrium Hoe",
       "block.ansur.pyrantha": "Pyrantha",
       "item.ansur.powered_yttrium_s_armor_helmet": "Powered Yttrium Helmet",
@@ -2349,9 +2564,11 @@
       "item.ansur.powered_yttrium_stuff_shovel": "Powered Yttrium Shovel",
       "entity.ansur.forrock_spider": "Forrock Spider",
       "item.ansur.powered_yttrium_stuff_pickaxe": "Powered Yttrium Pickaxe",
+      "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste Potion",
       "item.ansur.saltpeter": "Saltpeter",
       "block.ansur.danewood_planks_stairs": "Danewood Planks Stairs",
       "block.ansur.forrock_bricks_stairs": "Forrock Bricks Stairs",
+      "key.ansur.big_mushroom_spawn": "Mushroom Spawning",
       "item.ansur.powered_yttrium_s_armorboots": "Powered Yttrium Boots",
       "item.ansur.handgun": "Handgun",
       "block.ansur.rockwood_planks": "Rockwood Planks",
@@ -2359,6 +2576,7 @@
       "block.ansur.danewood_log": "Danewood Log",
       "item.ansur.dane_armorbody": "Dane Mail Chest",
       "advancements.neutarand_enter.descr": "Discover the Neutarand, a biome full of weirdness",
+      "item.ansur.mushroom_armor_boots": "Mushroom Boots",
       "enchantment.ansur.last_breath": "Last Breath",
       "item.ansur.friendly_spider": "Friendly Spider Spawn Egg",
       "block.ansur.tnt_duper": "TNT Duper",
@@ -2374,6 +2592,7 @@
       "item.ansur.power_hammer": "Power Hammer",
       "item.ansur.forrock_spider_spawn_egg": "Forrock Spider Spawn Egg",
       "block.ansur.forwood_log": "Forwood Log",
+      "item.ansur.mushroom_armor_chestplate": "Mushroom Chestplate",
       "item.ansur.aiden_gem": "Aiden Gem",
       "item.ansur.powered_yttrium_stuff_sword": "Powered Yttrium Sword",
       "item.ansur.dane_armor_helmet": "Dane Helm",
@@ -2381,6 +2600,7 @@
       "item.ansur.forrock_spider": "Forrock Spider Spawn Egg",
       "item.ansur.iron_plate": "Iron Plate",
       "block.ansur.forrock_bricks_slab": "Forrock Bricks Slab",
+      "item.ansur.mushroom_armor_leggings": "Mushroom Leggings",
       "item.ansur.dane_armorboots": "Dane Boots",
       "entity.ansur.forwood_spider": "Forwood Spider",
       "item.ansur.aiden_dimension": "Aiden Core",
@@ -2389,30 +2609,32 @@
     },
     "fr_fr": {
       "item.ansur.rogue_armorbody": "Cotte de mailles de Vagabond",
+      "item.minecraft.lingering_potion.effect.haste_potion": "Lingering Haste Potion",
       "item.ansur.spider_sword": "Arachnogenèse",
       "item.ansur.rogue_armor_helmet": "Heaume de Vagabond",
       "block.ansur.powered_coal_block": "Bloc de charbon enrichi",
       "item.ansur.powered_coal": "Charbon enrichi",
-      "item.ansur.aiden_apple": "Pomme d\u0027Aiden",
+      "effect.haste_potion": "Haste Potion",
       "block.ansur.rockwood_log": "Bûche de boisroc",
-      "block.ansur.danewood_planks": "Planches de xylodane",
+      "item.ansur.aiden_apple": "Pomme d\u0027Aiden",
       "block.ansur.danerock_bricks_stairs": "Escaliers de briques de danolithe",
+      "block.ansur.danewood_planks": "Planches de xylodane",
       "item.ansur.dane_zombie": "Oeuf d\u0027apparition de Zombi de Dan",
       "item.ansur.wagyu_meat": "Viande séchée",
       "item.ansur.rogue_armor_chestplate": "Cotte de mailles de Vagabond",
       "biome.ansur.neutarand": "Neutarand",
       "block.ansur.aiden_stone": "Pierre d\u0027Aiden",
       "block.ansur.danewood_fence": "Barrière de xylodane",
-      "block.ansur.danerock_bricks_slab": "Dalle de briques de danolithe",
       "block.ansur.powered_coal_ore": "Powered Coal Ore",
+      "block.ansur.danerock_bricks_slab": "Dalle de briques de danolithe",
       "item.ansur.chitin": "Chitine",
       "biome.ansur.rockbiome": "Biomeroc",
       "block.ansur.forrock": "Pourroche",
       "item.ansur.powered_yttrium": "Yttrium enrichi",
       "block.ansur.yttrium_ore_block": "Bloc d\u0027yttrium",
-      "item.ansur.powered_yttrium_s_armorbody": "Plastron d\u0027yttrium enrichi",
-      "item.ansur.forwood_spider": "Oeuf d\u0027apparition d\u0027Araignée de boispour",
       "advancements.aiden_enter.title": "Aiden Discovery",
+      "item.ansur.forwood_spider": "Oeuf d\u0027apparition d\u0027Araignée de boispour",
+      "item.ansur.powered_yttrium_s_armorbody": "Plastron d\u0027yttrium enrichi",
       "fluid.neutralin": "Neutralin",
       "biome.ansur.danebiome": "Biomedan",
       "block.ansur.antafern": "Antafern",
@@ -2432,8 +2654,11 @@
       "item.ansur.powered_yttrium_s_armor_chestplate": "Plastron d\u0027yttrium enrichi",
       "block.ansur.rockwool_bricks_stairs": "Escaliers de briques de laineroc",
       "block.ansur.helichrysum_italicum": "Immortelle",
+      "item.minecraft.potion.effect.haste_potion": "Haste Potion",
       "item.ansur.yttrium_fluid_core": "Cœur de fluide en yttrium",
+      "item.ansur.fungus_fiber": "Fungus Fiber",
       "block.ansur.fluid_tank": "Cuve",
+      "item.ansur.rogue_soul": "Rogue Soul",
       "enchantment.ansur.withering": "Flétrissement",
       "item.ansur.dane_armorlegs": "Jambières de Dan",
       "block.ansur.rockwood_planks_slab": "Dalle de boisroc",
@@ -2444,12 +2669,15 @@
       "block.ansur.rockwool_bricks": "Briques de laineroc",
       "item.ansur.powered_yttrium_s_armor_leggings": "Jambières d\u0027yttrium enrichi",
       "item.ansur.rockwood_rogue": "Oeuf d\u0027apparition de Vagabon du Boisroc",
+      "block.ansur.fibrous_mushroom": "Fibrous Mushroom",
       "block.ansur.forwood_planks": "Planches de boispour",
       "item.ansur.yttrium_power_cell": "Cellule de pouvoir en yttrium",
       "item.ansur.powered_yttrium_ingot": "Lingot d\u0027yttrium enrichi",
       "item.ansur.powered_yttrium_s_armorhelmet": "Casque d\u0027yttrium enrichi",
       "block.ansur.danerock_bricks": "Briques de danolithe",
+      "item.minecraft.splash_potion.effect.haste_potion": "Splash Haste Potion",
       "item.ansur.gun_handle": "Crosse",
+      "item.ansur.mushroom_armor_helmet": "Mushroom Helmet",
       "item.ansur.powered_yttrium_stuff_hoe": "Houe d\u0027yttrium enrichi",
       "block.ansur.pyrantha": "Pyranthe",
       "item.ansur.powered_yttrium_s_armor_helmet": "Casque d\u0027yttrium enrichi",
@@ -2482,9 +2710,11 @@
       "item.ansur.powered_yttrium_stuff_shovel": "Pelle d\u0027yttrium enrichi",
       "entity.ansur.forrock_spider": "Araignée de pourroche",
       "item.ansur.powered_yttrium_stuff_pickaxe": "Pioche d\u0027yttrium enrichi",
+      "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste Potion",
       "item.ansur.saltpeter": "Salpêtre",
       "block.ansur.danewood_planks_stairs": "Escaliers de planches de xylodane",
       "block.ansur.forrock_bricks_stairs": "Escaliers de briques de pourroche",
+      "key.ansur.big_mushroom_spawn": "Mushroom Spawning",
       "item.ansur.powered_yttrium_s_armorboots": "Bottes d\u0027yttrium enrichi",
       "item.ansur.handgun": "Pistolet",
       "block.ansur.rockwood_planks": "Planches de boisroc",
@@ -2492,6 +2722,7 @@
       "block.ansur.danewood_log": "Bûche de xylodane",
       "item.ansur.dane_armorbody": "Cotte de maille de Dan",
       "advancements.neutarand_enter.descr": "Découvez le Neutarand, un biome plein de bizarreries",
+      "item.ansur.mushroom_armor_boots": "Mushroom Boots",
       "enchantment.ansur.last_breath": "Souffle ultime",
       "item.ansur.friendly_spider": "Friendly Spider Spawn Egg",
       "block.ansur.tnt_duper": "TNT Duper",
@@ -2507,6 +2738,7 @@
       "item.ansur.power_hammer": "Marteau puissant",
       "item.ansur.forrock_spider_spawn_egg": "Forrock Spider Spawn Egg",
       "block.ansur.forwood_log": "Bûche de boispour",
+      "item.ansur.mushroom_armor_chestplate": "Mushroom Chestplate",
       "item.ansur.aiden_gem": "Gemme d\u0027Aiden",
       "item.ansur.powered_yttrium_stuff_sword": "Épée d\u0027yttrium enrichi",
       "item.ansur.dane_armor_helmet": "Casque de Dan",
@@ -2514,6 +2746,7 @@
       "item.ansur.forrock_spider": "Oeuf d\u0027apparition d\u0027Araignée de pourroche",
       "item.ansur.iron_plate": "Plaque de fer",
       "block.ansur.forrock_bricks_slab": "Dalle de briques de pourroche",
+      "item.ansur.mushroom_armor_leggings": "Mushroom Leggings",
       "item.ansur.dane_armorboots": "Bottes de Dan",
       "entity.ansur.forwood_spider": "Araignée de boispour",
       "item.ansur.aiden_dimension": "Cœur d\u0027Aiden",

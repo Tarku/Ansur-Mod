@@ -1,0 +1,39 @@
+{
+  "group": "mushroom_chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:fungus_fiber"
+    },
+    "2": {
+      "item": "ansur:fungus_fiber"
+    },
+    "3": {
+      "item": "ansur:fungus_fiber"
+    },
+    "4": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "5": {
+      "item": "ansur:fungus_fiber"
+    },
+    "6": {
+      "item": "ansur:fungus_fiber"
+    },
+    "7": {
+      "item": "ansur:fibrous_mushroom"
+    },
+    "8": {
+      "item": "ansur:fungus_fiber"
+    }
+  },
+  "result": {
+    "item": "ansur:mushroom_armor_chestplate",
+    "count": 1
+  }
+}
