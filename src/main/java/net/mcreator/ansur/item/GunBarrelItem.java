@@ -16,7 +16,7 @@ public class GunBarrelItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:gun_barrel")
 	public static final Item block = null;
 	public GunBarrelItem(AnsurModElements instance) {
-		super(instance, 52);
+		super(instance, 57);
 	}
 
 	@Override

@@ -52,7 +52,7 @@
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 1,
-    "reedsPerChunk": 0,
+    "reedsPerChunk": 1,
     "cactiPerChunk": 0,
     "treesPerChunk": 2,
     "vanillaTreeType": "Default",

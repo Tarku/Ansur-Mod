@@ -57,7 +57,7 @@ public class HelichrysumItalicumBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:helichrysum_italicum")
 	public static final Block block = null;
 	public HelichrysumItalicumBlock(AnsurModElements instance) {
-		super(instance, 42);
+		super(instance, 44);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

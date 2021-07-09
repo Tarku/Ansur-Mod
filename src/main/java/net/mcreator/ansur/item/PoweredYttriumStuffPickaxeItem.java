@@ -16,7 +16,7 @@ public class PoweredYttriumStuffPickaxeItem extends AnsurModElements.ModElement 
 	@ObjectHolder("ansur:powered_yttrium_stuff_pickaxe")
 	public static final Item block = null;
 	public PoweredYttriumStuffPickaxeItem(AnsurModElements instance) {
-		super(instance, 65);
+		super(instance, 63);
 	}
 
 	@Override

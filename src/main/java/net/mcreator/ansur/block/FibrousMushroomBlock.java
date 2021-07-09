@@ -55,7 +55,7 @@ public class FibrousMushroomBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:fibrous_mushroom")
 	public static final Block block = null;
 	public FibrousMushroomBlock(AnsurModElements instance) {
-		super(instance, 238);
+		super(instance, 47);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

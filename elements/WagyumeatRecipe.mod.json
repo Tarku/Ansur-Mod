@@ -6,11 +6,11 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 2,
-    "group": "wagyu_meat",
+    "group": "dried_meat",
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:GintaBerries"
       },
       {
         "value": "Items.ROTTEN_FLESH"
@@ -22,7 +22,7 @@
         "value": "Items.ROTTEN_FLESH"
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:GintaBerries"
       },
       {
         "value": ""

@@ -77,7 +77,7 @@ public class AidenDimensionDimension extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:aiden_dimension_portal")
 	public static final CustomPortalBlock portal = null;
 	public AidenDimensionDimension(AnsurModElements instance) {
-		super(instance, 50);
+		super(instance, 62);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

@@ -13,7 +13,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class HastePotionPotionStartedappliedProcedure extends AnsurModElements.ModElement {
 	public HastePotionPotionStartedappliedProcedure(AnsurModElements instance) {
-		super(instance, 241);
+		super(instance, 218);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -24,6 +24,6 @@ public class HastePotionPotionStartedappliedProcedure extends AnsurModElements.M
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HASTE, (int) 2760, (int) 1, (false), (true)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HASTE, (int) 3000, (int) 1, (false), (true)));
 	}
 }

@@ -16,7 +16,7 @@ import java.util.Comparator;
 @AnsurModElements.ModElement.Tag
 public class FriendlySpiderThisEntityKillsAnotherOneProcedure extends AnsurModElements.ModElement {
 	public FriendlySpiderThisEntityKillsAnotherOneProcedure(AnsurModElements instance) {
-		super(instance, 117);
+		super(instance, 128);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

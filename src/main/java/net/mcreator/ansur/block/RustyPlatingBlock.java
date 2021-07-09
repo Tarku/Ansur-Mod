@@ -25,7 +25,7 @@ public class RustyPlatingBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:rusty_plating")
 	public static final Block block = null;
 	public RustyPlatingBlock(AnsurModElements instance) {
-		super(instance, 33);
+		super(instance, 35);
 	}
 
 	@Override

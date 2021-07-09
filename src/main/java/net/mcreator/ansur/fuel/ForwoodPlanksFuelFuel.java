@@ -13,7 +13,7 @@ import net.mcreator.ansur.AnsurModElements;
 @AnsurModElements.ModElement.Tag
 public class ForwoodPlanksFuelFuel extends AnsurModElements.ModElement {
 	public ForwoodPlanksFuelFuel(AnsurModElements instance) {
-		super(instance, 174);
+		super(instance, 172);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

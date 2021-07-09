@@ -16,7 +16,7 @@ public class BulletItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:bullet")
 	public static final Item block = null;
 	public BulletItem(AnsurModElements instance) {
-		super(instance, 74);
+		super(instance, 84);
 	}
 
 	@Override

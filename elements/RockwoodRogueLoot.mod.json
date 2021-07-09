@@ -5,7 +5,7 @@
     "type": "Entity",
     "pools": [
       {
-        "minrolls": 0,
+        "minrolls": 1,
         "maxrolls": 2,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
@@ -16,12 +16,12 @@
             "item": {
               "value": "CUSTOM:YttriumDust"
             },
-            "weight": 50,
+            "weight": 21,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
           },
@@ -30,19 +30,19 @@
             "item": {
               "value": "CUSTOM:RogueSoul"
             },
-            "weight": 4,
+            "weight": 3,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
           }
         ]
       },
       {
-        "minrolls": 0,
+        "minrolls": 1,
         "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
@@ -53,7 +53,7 @@
             "item": {
               "value": "CUSTOM:RogueArmor.helmet"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -67,7 +67,7 @@
             "item": {
               "value": "CUSTOM:RogueArmor.body"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -81,7 +81,7 @@
             "item": {
               "value": "CUSTOM:RogueArmor.legs"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -95,7 +95,7 @@
             "item": {
               "value": "CUSTOM:RogueArmor.boots"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -109,7 +109,7 @@
             "item": {
               "value": "Blocks.CAVE_AIR"
             },
-            "weight": 92,
+            "weight": 30,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

@@ -61,7 +61,7 @@ public class AntafernBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:antafern")
 	public static final Block block = null;
 	public AntafernBlock(AnsurModElements instance) {
-		super(instance, 233);
+		super(instance, 48);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

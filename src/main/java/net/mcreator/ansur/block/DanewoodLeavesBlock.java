@@ -18,7 +18,7 @@ public class DanewoodLeavesBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:danewood_leaves")
 	public static final Block block = null;
 	public DanewoodLeavesBlock(AnsurModElements instance) {
-		super(instance, 38);
+		super(instance, 40);
 	}
 
 	@Override

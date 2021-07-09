@@ -13,7 +13,7 @@ import net.mcreator.ansur.AnsurModElements;
 @AnsurModElements.ModElement.Tag
 public class RockwoodLeavesAsFuelFuel extends AnsurModElements.ModElement {
 	public RockwoodLeavesAsFuelFuel(AnsurModElements instance) {
-		super(instance, 193);
+		super(instance, 185);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -1,21 +1,28 @@
 {
   "_fv": 18,
-  "_type": "potion",
+  "_type": "food",
   "definition": {
+    "renderType": 0,
+    "texture": "haste_potion2",
+    "customModelName": "Normal",
     "name": "Haste Potion",
-    "effectName": "Haste Potion",
-    "icon": "haste.png",
-    "color": {
-      "value": -13421569,
-      "falpha": 0.0
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "BREWING"
     },
-    "isInstant": false,
-    "isBad": false,
-    "isBenefitical": true,
-    "registerPotionType": true,
-    "renderStatusInInventory": true,
-    "renderStatusInHUD": true,
-    "onStarted": {
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": true,
+    "onEaten": {
       "name": "HastePotionPotionStartedapplied"
     }
   }

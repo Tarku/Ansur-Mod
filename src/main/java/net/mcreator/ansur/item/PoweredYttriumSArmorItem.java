@@ -29,7 +29,7 @@ public class PoweredYttriumSArmorItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:powered_yttrium_s_armor_boots")
 	public static final Item boots = null;
 	public PoweredYttriumSArmorItem(AnsurModElements instance) {
-		super(instance, 75);
+		super(instance, 85);
 	}
 
 	@Override

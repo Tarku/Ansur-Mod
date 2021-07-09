@@ -14,7 +14,7 @@ public class LastBreathEnchantment extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:last_breath")
 	public static final Enchantment enchantment = null;
 	public LastBreathEnchantment(AnsurModElements instance) {
-		super(instance, 143);
+		super(instance, 152);
 	}
 
 	@Override

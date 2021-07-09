@@ -47,7 +47,7 @@ public class PoweredCoalOreBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:powered_coal_ore")
 	public static final Block block = null;
 	public PoweredCoalOreBlock(AnsurModElements instance) {
-		super(instance, 202);
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

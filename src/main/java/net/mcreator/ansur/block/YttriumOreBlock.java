@@ -46,7 +46,7 @@ public class YttriumOreBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:yttrium_ore")
 	public static final Block block = null;
 	public YttriumOreBlock(AnsurModElements instance) {
-		super(instance, 9);
+		super(instance, 8);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

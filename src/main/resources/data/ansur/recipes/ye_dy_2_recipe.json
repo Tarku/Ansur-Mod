@@ -1,0 +1,13 @@
+{
+  "group": "antafern",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ansur:antafern"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_dye",
+    "count": 1
+  }
+}

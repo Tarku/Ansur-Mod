@@ -34,7 +34,7 @@ public class ForwoodFenceBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:forwood_fence")
 	public static final Block block = null;
 	public ForwoodFenceBlock(AnsurModElements instance) {
-		super(instance, 39);
+		super(instance, 41);
 	}
 
 	@Override

@@ -47,7 +47,7 @@ public class HandgunItem extends AnsurModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybullethandgun").setRegistryName("entitybullethandgun");
 	public HandgunItem(AnsurModElements instance) {
-		super(instance, 72);
+		super(instance, 82);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HandgunRenderer.ModelRegisterHandler());
 	}
 
@@ -97,7 +97,7 @@ public class HandgunItem extends AnsurModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 5f, 2.75, 4);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 4f, 2, 2);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -202,10 +202,10 @@ public class HandgunItem extends AnsurModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 5f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 4f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(2.75);
-		entityarrow.setKnockbackStrength(4);
+		entityarrow.setDamage(2);
+		entityarrow.setKnockbackStrength(2);
 		entityarrow.setIsCritical(true);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();

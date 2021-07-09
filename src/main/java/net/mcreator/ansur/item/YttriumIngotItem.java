@@ -16,7 +16,7 @@ public class YttriumIngotItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:yttrium_ingot")
 	public static final Item block = null;
 	public YttriumIngotItem(AnsurModElements instance) {
-		super(instance, 60);
+		super(instance, 73);
 	}
 
 	@Override

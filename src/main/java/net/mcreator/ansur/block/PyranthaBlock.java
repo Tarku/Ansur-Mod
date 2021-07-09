@@ -57,7 +57,7 @@ public class PyranthaBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:pyrantha")
 	public static final Block block = null;
 	public PyranthaBlock(AnsurModElements instance) {
-		super(instance, 44);
+		super(instance, 46);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

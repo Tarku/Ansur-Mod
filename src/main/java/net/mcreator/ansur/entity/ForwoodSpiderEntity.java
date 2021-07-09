@@ -47,7 +47,7 @@ public class ForwoodSpiderEntity extends AnsurModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(1.4f, 0.9f)).build("forwood_spider").setRegistryName("forwood_spider");
 	public ForwoodSpiderEntity(AnsurModElements instance) {
-		super(instance, 48);
+		super(instance, 55);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ForwoodSpiderRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

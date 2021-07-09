@@ -34,7 +34,7 @@ public class DanewoodFenceBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:danewood_fence")
 	public static final Block block = null;
 	public DanewoodFenceBlock(AnsurModElements instance) {
-		super(instance, 40);
+		super(instance, 42);
 	}
 
 	@Override

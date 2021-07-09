@@ -57,7 +57,7 @@ public class AsmelitaBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:asmelita")
 	public static final Block block = null;
 	public AsmelitaBlock(AnsurModElements instance) {
-		super(instance, 43);
+		super(instance, 45);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

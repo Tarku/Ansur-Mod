@@ -35,7 +35,7 @@ import io.netty.buffer.Unpooled;
 @AnsurModElements.ModElement.Tag
 public class FluidTankLorsDunClicDroitSurLeBlocProcedure extends AnsurModElements.ModElement {
 	public FluidTankLorsDunClicDroitSurLeBlocProcedure(AnsurModElements instance) {
-		super(instance, 219);
+		super(instance, 204);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

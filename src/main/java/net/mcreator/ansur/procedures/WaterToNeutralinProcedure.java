@@ -21,7 +21,7 @@ import java.util.HashMap;
 @AnsurModElements.ModElement.Tag
 public class WaterToNeutralinProcedure extends AnsurModElements.ModElement {
 	public WaterToNeutralinProcedure(AnsurModElements instance) {
-		super(instance, 228);
+		super(instance, 212);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -24,7 +24,7 @@ public class YttriumOreBlockBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:yttrium_ore_block")
 	public static final Block block = null;
 	public YttriumOreBlockBlock(AnsurModElements instance) {
-		super(instance, 35);
+		super(instance, 9);
 	}
 
 	@Override

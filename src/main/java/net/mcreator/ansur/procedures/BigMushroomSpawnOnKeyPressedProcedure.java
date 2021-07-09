@@ -21,7 +21,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class BigMushroomSpawnOnKeyPressedProcedure extends AnsurModElements.ModElement {
 	public BigMushroomSpawnOnKeyPressedProcedure(AnsurModElements instance) {
-		super(instance, 244);
+		super(instance, 221);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -56,17 +56,17 @@ public class BigMushroomSpawnOnKeyPressedProcedure extends AnsurModElements.ModE
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if ((((((entity instanceof LivingEntity)
-				? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
+				? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
 				: ItemStack.EMPTY).getItem() == new ItemStack(MushroomArmorItem.helmet, (int) (1)).getItem())
 				&& (((entity instanceof LivingEntity)
-						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1))
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
 						: ItemStack.EMPTY).getItem() == new ItemStack(MushroomArmorItem.body, (int) (1)).getItem()))
 				&& ((((entity instanceof LivingEntity)
-						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
+						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1))
 						: ItemStack.EMPTY).getItem() == new ItemStack(MushroomArmorItem.legs, (int) (1)).getItem())
 						&& (((entity instanceof LivingEntity)
 								? ((LivingEntity) entity)
-										.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
+										.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
 								: ItemStack.EMPTY).getItem() == new ItemStack(MushroomArmorItem.boots, (int) (1)).getItem())))) {
 			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.MYCELIUM.getDefaultState(), 3);
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.RED_MUSHROOM.getDefaultState(), 3);

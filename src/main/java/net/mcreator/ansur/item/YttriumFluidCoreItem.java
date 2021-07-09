@@ -16,7 +16,7 @@ public class YttriumFluidCoreItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:yttrium_fluid_core")
 	public static final Item block = null;
 	public YttriumFluidCoreItem(AnsurModElements instance) {
-		super(instance, 51);
+		super(instance, 60);
 	}
 
 	@Override

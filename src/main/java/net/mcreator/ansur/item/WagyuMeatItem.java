@@ -14,7 +14,7 @@ import net.mcreator.ansur.AnsurModElements;
 
 @AnsurModElements.ModElement.Tag
 public class WagyuMeatItem extends AnsurModElements.ModElement {
-	@ObjectHolder("ansur:wagyu_meat")
+	@ObjectHolder("ansur:dried_meat")
 	public static final Item block = null;
 	public WagyuMeatItem(AnsurModElements instance) {
 		super(instance, 1);
@@ -27,8 +27,8 @@ public class WagyuMeatItem extends AnsurModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(8).saturation(1f).meat().build()));
-			setRegistryName("wagyu_meat");
+					.food((new Food.Builder()).hunger(8).saturation(6f).meat().build()));
+			setRegistryName("dried_meat");
 		}
 
 		@Override

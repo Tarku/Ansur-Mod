@@ -16,7 +16,7 @@ public class YttriumDustItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:yttrium_dust")
 	public static final Item block = null;
 	public YttriumDustItem(AnsurModElements instance) {
-		super(instance, 61);
+		super(instance, 74);
 	}
 
 	@Override

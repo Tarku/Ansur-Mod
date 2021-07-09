@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
-    "group": "",
+    "recipeRetstackSize": 2,
+    "group": "antafern",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Antafern"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Antafern"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "CUSTOM:IronPlate"
+        "value": "CUSTOM:Antafern"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "CUSTOM:Antafern"
       },
       {
-        "value": "CUSTOM:IronPlate"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Antafern"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GunHandle"
+      "value": "CUSTOM:Fiber"
     },
-    "name": "gu_ha_recipe",
+    "name": "fi_3_recipe",
     "namespace": "mod"
   }
 }

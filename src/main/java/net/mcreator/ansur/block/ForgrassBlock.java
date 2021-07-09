@@ -47,6 +47,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -61,7 +62,7 @@ public class ForgrassBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:forgrass")
 	public static final Block block = null;
 	public ForgrassBlock(AnsurModElements instance) {
-		super(instance, 234);
+		super(instance, 49);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -144,7 +145,7 @@ public class ForgrassBlock extends AnsurModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 0));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (0)));
 		}
 
 		@Override

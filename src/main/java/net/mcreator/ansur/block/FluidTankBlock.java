@@ -78,7 +78,7 @@ public class FluidTankBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:fluid_tank")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public FluidTankBlock(AnsurModElements instance) {
-		super(instance, 78);
+		super(instance, 89);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

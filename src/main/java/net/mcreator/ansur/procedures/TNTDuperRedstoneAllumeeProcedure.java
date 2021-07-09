@@ -33,7 +33,7 @@ import java.util.Comparator;
 @AnsurModElements.ModElement.Tag
 public class TNTDuperRedstoneAllumeeProcedure extends AnsurModElements.ModElement {
 	public TNTDuperRedstoneAllumeeProcedure(AnsurModElements instance) {
-		super(instance, 221);
+		super(instance, 206);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

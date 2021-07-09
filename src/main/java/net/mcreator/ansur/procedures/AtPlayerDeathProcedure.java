@@ -18,7 +18,7 @@ import java.util.HashMap;
 @AnsurModElements.ModElement.Tag
 public class AtPlayerDeathProcedure extends AnsurModElements.ModElement {
 	public AtPlayerDeathProcedure(AnsurModElements instance) {
-		super(instance, 144);
+		super(instance, 153);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

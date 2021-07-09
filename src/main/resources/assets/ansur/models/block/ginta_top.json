@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ansur:blocks/gintarin3",
+    "particle": "ansur:blocks/gintarin3"
+  }
+}

@@ -40,7 +40,7 @@ public class DanewoodHouseStructure extends AnsurModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public DanewoodHouseStructure(AnsurModElements instance) {
-		super(instance, 123);
+		super(instance, 133);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

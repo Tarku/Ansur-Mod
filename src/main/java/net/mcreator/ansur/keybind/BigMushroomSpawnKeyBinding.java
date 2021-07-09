@@ -31,7 +31,7 @@ public class BigMushroomSpawnKeyBinding extends AnsurModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 	public BigMushroomSpawnKeyBinding(AnsurModElements instance) {
-		super(instance, 244);
+		super(instance, 222);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

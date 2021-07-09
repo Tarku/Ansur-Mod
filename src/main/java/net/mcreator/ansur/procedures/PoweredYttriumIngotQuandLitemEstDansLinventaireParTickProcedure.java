@@ -16,7 +16,7 @@ import java.util.Iterator;
 @AnsurModElements.ModElement.Tag
 public class PoweredYttriumIngotQuandLitemEstDansLinventaireParTickProcedure extends AnsurModElements.ModElement {
 	public PoweredYttriumIngotQuandLitemEstDansLinventaireParTickProcedure(AnsurModElements instance) {
-		super(instance, 225);
+		super(instance, 210);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

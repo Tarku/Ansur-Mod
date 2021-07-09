@@ -16,7 +16,7 @@ public class AidenGemItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:aiden_gem")
 	public static final Item block = null;
 	public AidenGemItem(AnsurModElements instance) {
-		super(instance, 57);
+		super(instance, 70);
 	}
 
 	@Override

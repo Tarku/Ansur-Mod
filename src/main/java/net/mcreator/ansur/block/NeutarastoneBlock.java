@@ -29,7 +29,7 @@ public class NeutarastoneBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:neutrastone")
 	public static final Block block = null;
 	public NeutarastoneBlock(AnsurModElements instance) {
-		super(instance, 232);
+		super(instance, 34);
 	}
 
 	@Override

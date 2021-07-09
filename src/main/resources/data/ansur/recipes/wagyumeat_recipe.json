@@ -1,9 +1,9 @@
 {
-  "group": "wagyu_meat",
+  "group": "dried_meat",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:redstone"
+      "item": "ansur:ginta_berries"
     },
     {
       "item": "minecraft:rotten_flesh"
@@ -12,11 +12,11 @@
       "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "ansur:ginta_berries"
     }
   ],
   "result": {
-    "item": "ansur:wagyu_meat",
+    "item": "ansur:dried_meat",
     "count": 2
   }
 }

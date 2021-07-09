@@ -12,7 +12,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class ForrockBlockAddedProcedure extends AnsurModElements.ModElement {
 	public ForrockBlockAddedProcedure(AnsurModElements instance) {
-		super(instance, 147);
+		super(instance, 156);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

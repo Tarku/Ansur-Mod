@@ -35,7 +35,7 @@ public class DaneArmorItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:dane_armor_boots")
 	public static final Item boots = null;
 	public DaneArmorItem(AnsurModElements instance) {
-		super(instance, 77);
+		super(instance, 87);
 	}
 
 	@Override

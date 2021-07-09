@@ -16,7 +16,7 @@ public class ChitinItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:chitin")
 	public static final Item block = null;
 	public ChitinItem(AnsurModElements instance) {
-		super(instance, 63);
+		super(instance, 77);
 	}
 
 	@Override

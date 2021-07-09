@@ -56,7 +56,7 @@ import com.google.common.collect.ImmutableList;
 public class RockbiomeBiome extends AnsurModElements.ModElement {
 	public static Biome biome;
 	public RockbiomeBiome(AnsurModElements instance) {
-		super(instance, 84);
+		super(instance, 96);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

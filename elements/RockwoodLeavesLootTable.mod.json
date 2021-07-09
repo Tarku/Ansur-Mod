@@ -5,7 +5,7 @@
     "type": "Block",
     "pools": [
       {
-        "minrolls": 0,
+        "minrolls": 1,
         "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:AidenApple"
             },
-            "weight": 7,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 93,
+            "weight": 20,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

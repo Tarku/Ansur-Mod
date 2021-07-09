@@ -6,41 +6,41 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 2,
-    "group": "wagyu_meat",
+    "group": "fiber",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.ROTTEN_FLESH"
-      },
-      {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:Ginta"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": "Items.ROTTEN_FLESH"
+        "value": "CUSTOM:Ginta"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Ginta"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:Ginta"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Ginta"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:WagyuMeat"
+      "value": "CUSTOM:Fiber"
     },
-    "name": "wmr_2",
+    "name": "fi_2_recipe",
     "namespace": "mod"
   }
 }

@@ -16,7 +16,7 @@ public class FiberItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:fungus_fiber")
 	public static final Item block = null;
 	public FiberItem(AnsurModElements instance) {
-		super(instance, 239);
+		super(instance, 78);
 	}
 
 	@Override

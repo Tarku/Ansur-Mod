@@ -24,7 +24,7 @@ public class NorstoneBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:norstone")
 	public static final Block block = null;
 	public NorstoneBlock(AnsurModElements instance) {
-		super(instance, 31);
+		super(instance, 32);
 	}
 
 	@Override

@@ -54,7 +54,7 @@ public class NeutralinBlock extends AnsurModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public NeutralinBlock(AnsurModElements instance) {
-		super(instance, 226);
+		super(instance, 61);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

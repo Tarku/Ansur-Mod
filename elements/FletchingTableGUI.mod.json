@@ -1,0 +1,186 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Fletching Table",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Fletching Table",
+          "x": 130,
+          "y": 40
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 149,
+          "y": 64
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 185,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "MAIN",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "MAIN",
+          "x": 147,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "THRU",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "THRU",
+          "x": 184,
+          "y": 54
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 166,
+          "y": 92
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "SPEC",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "SPEC",
+          "x": 164,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "MAIN = Main Material",
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "name": "MAIN = Main Material",
+          "x": 25,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "THRU = Thrusting Material",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "THRU = Thrusting Material",
+          "x": 1,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "SPEC = Special Material",
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "name": "SPEC = Special Material",
+          "x": 10,
+          "y": 60
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 258,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "OUT",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "OUT",
+          "x": 259,
+          "y": 65
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Craft",
+          "onClick": {
+            "name": "FletchingTableGUIProcedure"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Craft",
+          "x": 45,
+          "y": 73
+        }
+      }
+    ]
+  }
+}

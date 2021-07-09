@@ -16,7 +16,7 @@ public class SaltpeterItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:saltpeter")
 	public static final Item block = null;
 	public SaltpeterItem(AnsurModElements instance) {
-		super(instance, 64);
+		super(instance, 76);
 	}
 
 	@Override

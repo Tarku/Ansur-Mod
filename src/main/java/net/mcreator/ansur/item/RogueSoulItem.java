@@ -18,7 +18,7 @@ public class RogueSoulItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:rogue_soul")
 	public static final Item block = null;
 	public RogueSoulItem(AnsurModElements instance) {
-		super(instance, 237);
+		super(instance, 79);
 	}
 
 	@Override

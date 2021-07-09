@@ -6,7 +6,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 9,
-    "group": "",
+    "group": "yttrium_ingot",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:YttriumDust"
+      "value": "CUSTOM:YttriumIngot"
     },
     "name": "yttrium_block_ore_recipe",
     "namespace": "mod"

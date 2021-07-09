@@ -12,7 +12,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class NeutarastoneQuandLeBlocVoisinChangeProcedure extends AnsurModElements.ModElement {
 	public NeutarastoneQuandLeBlocVoisinChangeProcedure(AnsurModElements instance) {
-		super(instance, 232);
+		super(instance, 216);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

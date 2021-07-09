@@ -56,7 +56,7 @@ import com.google.common.collect.ImmutableList;
 public class DanebiomeBiome extends AnsurModElements.ModElement {
 	public static Biome biome;
 	public DanebiomeBiome(AnsurModElements instance) {
-		super(instance, 83);
+		super(instance, 95);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

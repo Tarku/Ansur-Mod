@@ -27,8 +27,8 @@
       "name": "PhoenixBlasterRangedItemUsed"
     },
     "bulletPower": 5.0,
-    "bulletDamage": 3.5,
-    "bulletKnockback": 6,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 3,
     "bulletParticles": false,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {

@@ -6,7 +6,7 @@
     "xpReward": 2.4499999999999997,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "yttrium_ingot",
     "recipeShapeless": false,
     "smeltingInputStack": {
       "value": "CUSTOM:YttriumDust"

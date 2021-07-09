@@ -1,0 +1,30 @@
+{
+  "group": "antafern",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ansur:antafern"
+    },
+    "2": {
+      "item": "ansur:antafern"
+    },
+    "4": {
+      "item": "ansur:antafern"
+    },
+    "6": {
+      "item": "ansur:antafern"
+    },
+    "8": {
+      "item": "ansur:antafern"
+    }
+  },
+  "result": {
+    "item": "ansur:fungus_fiber",
+    "count": 2
+  }
+}

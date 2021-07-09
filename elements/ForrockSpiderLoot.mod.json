@@ -6,7 +6,7 @@
     "pools": [
       {
         "minrolls": 1,
-        "maxrolls": 1,
+        "maxrolls": 2,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -30,7 +30,7 @@
             "item": {
               "value": "Blocks.VOID_AIR"
             },
-            "weight": 9,
+            "weight": 5,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

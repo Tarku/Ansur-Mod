@@ -6,20 +6,14 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "modded_armor_helmet",
+    "group": "powered_yttrium_helmet",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PoweredYttriumIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:PoweredYttriumIngot"
-      },
-      {
-        "value": "CUSTOM:PoweredYttriumIngot"
-      },
-      {
-        "value": "CUSTOM:PoweredYttriumIngot"
+        "value": "CUSTOM:RogueArmor.helmet"
       },
       {
         "value": ""
@@ -28,13 +22,19 @@
         "value": "CUSTOM:PoweredYttriumIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:RogueSoul"
       },
       {
-        "value": ""
+        "value": "CUSTOM:PoweredYttriumIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:PoweredYttriumIngot"
+      },
+      {
+        "value": "CUSTOM:PoweredYttriumIngot"
+      },
+      {
+        "value": "CUSTOM:PoweredYttriumIngot"
       }
     ],
     "recipeReturnStack": {

@@ -3,8 +3,6 @@
   "values": [
     "ansur:forwood_planks",
     "ansur:rockwood_planks",
-    "ansur:danewood_planks",
-    "minecraft:oak_log",
-    "minecraft:acacia_log"
+    "ansur:danewood_planks"
   ]
 }

@@ -12,7 +12,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class HandgunRangedItemUsedProcedure extends AnsurModElements.ModElement {
 	public HandgunRangedItemUsedProcedure(AnsurModElements instance) {
-		super(instance, 156);
+		super(instance, 163);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -29,6 +29,6 @@ public class HandgunRangedItemUsedProcedure extends AnsurModElements.ModElement 
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 10);
+			((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 16);
 	}
 }

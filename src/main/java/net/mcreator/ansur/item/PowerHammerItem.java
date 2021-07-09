@@ -16,7 +16,7 @@ public class PowerHammerItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:power_hammer")
 	public static final Item block = null;
 	public PowerHammerItem(AnsurModElements instance) {
-		super(instance, 69);
+		super(instance, 67);
 	}
 
 	@Override

@@ -6,20 +6,14 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "modded_armor_leggings",
+    "group": "powered_yttrium_leggings",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PoweredYttriumIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:PoweredYttriumIngot"
-      },
-      {
-        "value": "CUSTOM:PoweredYttriumIngot"
-      },
-      {
-        "value": "CUSTOM:PoweredYttriumIngot"
+        "value": "CUSTOM:RogueArmor.legs"
       },
       {
         "value": ""
@@ -28,10 +22,16 @@
         "value": "CUSTOM:PoweredYttriumIngot"
       },
       {
+        "value": "CUSTOM:RogueSoul"
+      },
+      {
         "value": "CUSTOM:PoweredYttriumIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:PoweredYttriumIngot"
+      },
+      {
+        "value": "CUSTOM:PoweredYttriumIngot"
       },
       {
         "value": "CUSTOM:PoweredYttriumIngot"

@@ -6,11 +6,14 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "modded_armor_chestplate",
+    "group": "powered_yttrium_chestplate",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PoweredYttriumIngot"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RogueArmor.body"
       },
       {
         "value": ""
@@ -19,10 +22,7 @@
         "value": "CUSTOM:PoweredYttriumIngot"
       },
       {
-        "value": "CUSTOM:PoweredYttriumIngot"
-      },
-      {
-        "value": "CUSTOM:PoweredYttriumIngot"
+        "value": "CUSTOM:RogueSoul"
       },
       {
         "value": "CUSTOM:PoweredYttriumIngot"

@@ -15,7 +15,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class FluidTankGUIQuandLeGUIEstOuvertProcedure extends AnsurModElements.ModElement {
 	public FluidTankGUIQuandLeGUIEstOuvertProcedure(AnsurModElements instance) {
-		super(instance, 218);
+		super(instance, 203);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

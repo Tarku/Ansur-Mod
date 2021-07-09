@@ -1,5 +1,5 @@
 {
-  "group": "ansur",
+  "group": "yttrium_ingot",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "ansur:yttrium_dust",
+    "item": "ansur:yttrium_ingot",
     "count": 9
   }
 }

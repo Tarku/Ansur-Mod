@@ -19,7 +19,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class FluidTankMiseAJourDuTickProcedure extends AnsurModElements.ModElement {
 	public FluidTankMiseAJourDuTickProcedure(AnsurModElements instance) {
-		super(instance, 220);
+		super(instance, 205);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

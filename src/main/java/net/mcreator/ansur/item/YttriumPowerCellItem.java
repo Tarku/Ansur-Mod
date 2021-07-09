@@ -16,7 +16,7 @@ public class YttriumPowerCellItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:yttrium_power_cell")
 	public static final Item block = null;
 	public YttriumPowerCellItem(AnsurModElements instance) {
-		super(instance, 53);
+		super(instance, 59);
 	}
 
 	@Override

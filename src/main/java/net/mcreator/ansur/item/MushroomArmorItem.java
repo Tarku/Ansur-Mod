@@ -29,7 +29,7 @@ public class MushroomArmorItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:mushroom_armor_boots")
 	public static final Item boots = null;
 	public MushroomArmorItem(AnsurModElements instance) {
-		super(instance, 242);
+		super(instance, 88);
 	}
 
 	@Override

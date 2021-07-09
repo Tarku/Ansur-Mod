@@ -1,0 +1,298 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 177,
+    "height": 196,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 15,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Aiden Villager",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Aiden Villager",
+          "x": 132,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "IN",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "IN",
+          "x": 141,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "OUT",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "OUT",
+          "x": 177,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Prices",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Prices",
+          "x": 258,
+          "y": 30
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ginta_item.png",
+          "use1Xscale": false,
+          "name": "ginta_item.png",
+          "x": 254,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "12",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "12",
+          "x": 244,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ginta_berries.png",
+          "use1Xscale": false,
+          "name": "ginta_berries.png",
+          "x": 274,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1",
+          "x": 289,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ginta_berries.png",
+          "use1Xscale": false,
+          "name": "ginta_berries.png",
+          "x": 253,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "9",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "9",
+          "x": 247,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bullet.png",
+          "use1Xscale": false,
+          "name": "bullet.png",
+          "x": 273,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "24",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "24",
+          "x": 286,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ginta_berries.png",
+          "use1Xscale": false,
+          "name": "ginta_berries.png",
+          "x": 253,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "24",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "24",
+          "x": 243,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1",
+          "x": 292,
+          "y": 73
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 137,
+          "y": 60
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 175,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ginta_berries.png",
+          "use1Xscale": false,
+          "name": "ginta_berries.png",
+          "x": 253,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "48",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "48",
+          "x": 243,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rogue_soul.png",
+          "use1Xscale": false,
+          "name": "rogue_soul.png",
+          "x": 274,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1",
+          "x": 291,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Trade",
+          "onClick": {
+            "name": "AiViGuiTrade"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Trade",
+          "x": 151,
+          "y": 86
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gun.png",
+          "use1Xscale": false,
+          "name": "gun.png",
+          "x": 267,
+          "y": 66
+        }
+      }
+    ]
+  }
+}

@@ -25,7 +25,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class SpiderSwordRightClickedInAirProcedure extends AnsurModElements.ModElement {
 	public SpiderSwordRightClickedInAirProcedure(AnsurModElements instance) {
-		super(instance, 114);
+		super(instance, 125);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

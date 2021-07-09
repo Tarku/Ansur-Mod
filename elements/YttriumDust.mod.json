@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "yttrium_dust",
     "customModelName": "Normal",
-    "name": "Yttrium",
+    "name": "Yttrium Dust",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MATERIALS"
@@ -15,6 +15,9 @@
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

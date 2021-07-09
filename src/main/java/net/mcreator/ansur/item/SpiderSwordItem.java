@@ -29,7 +29,7 @@ public class SpiderSwordItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:spider_sword")
 	public static final Item block = null;
 	public SpiderSwordItem(AnsurModElements instance) {
-		super(instance, 71);
+		super(instance, 81);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class ForbiomeHouseStructure extends AnsurModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public ForbiomeHouseStructure(AnsurModElements instance) {
-		super(instance, 121);
+		super(instance, 131);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

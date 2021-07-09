@@ -16,7 +16,7 @@ public class SulfurItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:sulfur")
 	public static final Item block = null;
 	public SulfurItem(AnsurModElements instance) {
-		super(instance, 62);
+		super(instance, 75);
 	}
 
 	@Override

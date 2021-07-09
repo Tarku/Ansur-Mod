@@ -40,7 +40,7 @@ public class RockwoodTowerStructure extends AnsurModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public RockwoodTowerStructure(AnsurModElements instance) {
-		super(instance, 122);
+		super(instance, 132);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

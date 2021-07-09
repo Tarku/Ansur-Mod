@@ -16,7 +16,7 @@ public class PoweredYttriumStuffSwordItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:powered_yttrium_stuff_sword")
 	public static final Item block = null;
 	public PoweredYttriumStuffSwordItem(AnsurModElements instance) {
-		super(instance, 70);
+		super(instance, 80);
 	}
 
 	@Override

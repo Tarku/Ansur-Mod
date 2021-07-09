@@ -26,9 +26,9 @@
     "onRangedItemUsed": {
       "name": "HandgunRangedItemUsed"
     },
-    "bulletPower": 5.0,
-    "bulletDamage": 2.75,
-    "bulletKnockback": 4,
+    "bulletPower": 4.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 2,
     "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {

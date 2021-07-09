@@ -48,7 +48,7 @@ public class DaneZombieEntity extends AnsurModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.8f)).build("dane_zombie").setRegistryName("dane_zombie");
 	public DaneZombieEntity(AnsurModElements instance) {
-		super(instance, 45);
+		super(instance, 52);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DaneZombieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -80,8 +80,8 @@ public class DaneZombieEntity extends AnsurModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 35);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.27);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 32);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 6);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);
 			event.put(entity, ammma.create());
@@ -108,13 +108,13 @@ public class DaneZombieEntity extends AnsurModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
+			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.1, false));
 			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, FriendlySpiderEntity.CustomEntity.class, false, false));
 			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, RockwoodRogueEntity.CustomEntity.class, false, false));
 			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ForwoodSpiderEntity.CustomEntity.class, false, false));
 			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ForrockSpiderEntity.CustomEntity.class, false, false));
 			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
-			this.goalSelector.addGoal(7, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(7, new RandomWalkingGoal(this, 0.9));
 			this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(9, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(10, new SwimGoal(this));

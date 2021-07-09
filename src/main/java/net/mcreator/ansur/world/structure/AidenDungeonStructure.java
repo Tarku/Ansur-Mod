@@ -40,7 +40,7 @@ public class AidenDungeonStructure extends AnsurModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public AidenDungeonStructure(AnsurModElements instance) {
-		super(instance, 120);
+		super(instance, 130);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

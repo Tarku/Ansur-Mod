@@ -49,7 +49,7 @@ public class FriendlySpiderEntity extends AnsurModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(1.4f, 0.9f)).build("friendly_spider").setRegistryName("friendly_spider");
 	public FriendlySpiderEntity(AnsurModElements instance) {
-		super(instance, 46);
+		super(instance, 53);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FriendlySpiderRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

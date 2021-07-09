@@ -13,7 +13,7 @@ import net.mcreator.ansur.AnsurModElements;
 @AnsurModElements.ModElement.Tag
 public class PoweredCoalFuelFuel extends AnsurModElements.ModElement {
 	public PoweredCoalFuelFuel(AnsurModElements instance) {
-		super(instance, 182);
+		super(instance, 180);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

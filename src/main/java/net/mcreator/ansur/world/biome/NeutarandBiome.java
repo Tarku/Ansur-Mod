@@ -62,7 +62,7 @@ import com.google.common.collect.ImmutableList;
 public class NeutarandBiome extends AnsurModElements.ModElement {
 	public static Biome biome;
 	public NeutarandBiome(AnsurModElements instance) {
-		super(instance, 227);
+		super(instance, 211);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -98,6 +98,9 @@ public class NeutarandBiome extends AnsurModElements.ModElement {
 														ImmutableList.of(NeutarastoneBlock.block.getDefaultState(),
 																NorstoneBlock.block.getDefaultState())))
 										.withPlacement(Features.Placements.SEAGRASS_DISK_PLACEMENT).func_242731_b(1));
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.SUGAR_CANE_PATCH_CONFIG)
+								.withPlacement(Features.Placements.PATCH_PLACEMENT).func_242731_b(1));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.NONE).depth(-0.4f).scale(1.5f).temperature(1f)

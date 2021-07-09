@@ -35,7 +35,7 @@ public class RogueArmorItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:rogue_armor_boots")
 	public static final Item boots = null;
 	public RogueArmorItem(AnsurModElements instance) {
-		super(instance, 76);
+		super(instance, 86);
 	}
 
 	@Override

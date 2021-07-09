@@ -16,7 +16,7 @@ public class IronPlateItem extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:iron_plate")
 	public static final Item block = null;
 	public IronPlateItem(AnsurModElements instance) {
-		super(instance, 55);
+		super(instance, 68);
 	}
 
 	@Override

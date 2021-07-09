@@ -1,5 +1,5 @@
 {
-  "group": "powered_yttrium",
+  "group": "yttrium_dust",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
@@ -37,6 +37,6 @@
   },
   "result": {
     "item": "ansur:powered_yttrium",
-    "count": 4
+    "count": 2
   }
 }

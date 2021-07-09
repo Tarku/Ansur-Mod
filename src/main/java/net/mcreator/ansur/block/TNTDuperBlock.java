@@ -36,7 +36,7 @@ public class TNTDuperBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:tnt_duper")
 	public static final Block block = null;
 	public TNTDuperBlock(AnsurModElements instance) {
-		super(instance, 221);
+		super(instance, 90);
 	}
 
 	@Override

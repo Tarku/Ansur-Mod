@@ -47,7 +47,7 @@ public class PhoenixBlasterItem extends AnsurModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletphoenix_blaster").setRegistryName("entitybulletphoenix_blaster");
 	public PhoenixBlasterItem(AnsurModElements instance) {
-		super(instance, 73);
+		super(instance, 83);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhoenixBlasterRenderer.ModelRegisterHandler());
 	}
 
@@ -97,7 +97,7 @@ public class PhoenixBlasterItem extends AnsurModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 5f, 3.5, 6);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 5f, 3, 3);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -205,8 +205,8 @@ public class PhoenixBlasterItem extends AnsurModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 5f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(3.5);
-		entityarrow.setKnockbackStrength(6);
+		entityarrow.setDamage(3);
+		entityarrow.setKnockbackStrength(3);
 		entityarrow.setIsCritical(false);
 		entityarrow.setFire(100);
 		entity.world.addEntity(entityarrow);

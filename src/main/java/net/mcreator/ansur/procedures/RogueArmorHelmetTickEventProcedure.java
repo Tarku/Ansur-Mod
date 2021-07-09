@@ -13,7 +13,7 @@ import java.util.Map;
 @AnsurModElements.ModElement.Tag
 public class RogueArmorHelmetTickEventProcedure extends AnsurModElements.ModElement {
 	public RogueArmorHelmetTickEventProcedure(AnsurModElements instance) {
-		super(instance, 111);
+		super(instance, 122);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

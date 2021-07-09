@@ -58,7 +58,7 @@ public class RockwoodRogueEntity extends AnsurModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletrockwood_rogue").setRegistryName("entitybulletrockwood_rogue");
 	public RockwoodRogueEntity(AnsurModElements instance) {
-		super(instance, 49);
+		super(instance, 56);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RockwoodRogueRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -79,7 +79,7 @@ public class RockwoodRogueEntity extends AnsurModElements.ModElement {
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 8, 1, 2));
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 6, 1, 2));
 	}
 
 	@Override
@@ -124,7 +124,7 @@ public class RockwoodRogueEntity extends AnsurModElements.ModElement {
 			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ForwoodSpiderEntity.CustomEntity.class, false, false));
 			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ForrockSpiderEntity.CustomEntity.class, false, false));
 			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, DaneZombieEntity.CustomEntity.class, false, false));
-			this.goalSelector.addGoal(7, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(7, new RandomWalkingGoal(this, 0.95));
 			this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(9, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(10, new SwimGoal(this));

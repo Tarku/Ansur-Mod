@@ -24,7 +24,7 @@ public class PoweredCoalBlockBlock extends AnsurModElements.ModElement {
 	@ObjectHolder("ansur:powered_coal_block")
 	public static final Block block = null;
 	public PoweredCoalBlockBlock(AnsurModElements instance) {
-		super(instance, 34);
+		super(instance, 36);
 	}
 
 	@Override
